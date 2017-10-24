@@ -109,12 +109,16 @@ article {
 }
 
 nav {
+    position: fixed;
+    top: 0px;
     height: 25px;
+    width: 100%;
     background: red;
     background: -webkit-linear-gradient(black, #646464);
     background: -o-linear-gradient(black, #646464);
     background: -moz-linear-gradient(black, #646464);
     background: linear-gradient(black, #646464);
+    z-index: 200;
 }
 
 nav:hover {
@@ -148,7 +152,6 @@ nav a {
     background-color: white;
     border: solid blue;
     border-radius: 5px;
-
     padding: 5px;
 
 }
@@ -163,17 +166,17 @@ nav a {
     position: absolute;
     z-index: 1;
     left: 10px;
-    bottom: 30px;
+    bottom: 40px;
 }
 
 #Achtergrond {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     z-index: -1;
     background-color: white;
     background-size: cover;
     opacity: 0.5;
-    width: 98%;
-    height: 295px;
+    width: 97.7%;
+    height: 293.4px;
 }
